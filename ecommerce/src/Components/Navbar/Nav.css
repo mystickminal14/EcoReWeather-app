@@ -1,0 +1,105 @@
+nav{
+    background:#EBE8E8;
+
+    height:50px;
+
+}
+.i{
+    font-size:1.3rem;
+}
+.ii{
+    font-size:1.5rem;
+}
+
+.footer{
+    height:200px;
+    background: rgb(165, 156, 156);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wid{
+    width:250px;
+    height:150px;
+}
+.wid img{
+    width:250px;
+    height:150px;
+    object-fit: cover;
+}
+.anchor{
+    font-family:"hammersmith one";
+    text-transform: uppercase;
+  
+}
+.anchor:hover{
+transform:translateY(-5PX);
+transition: 0.5s ease;
+}
+.anchor.active {
+    color: red;
+}
+.sideBar{
+    position: absolute;
+    right:10px;
+    top:0;
+    background:darkslategray;
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1;
+    gap:2em;
+    padding-bottom:4em;
+}
+
+.sideBar h1{
+    font-family:'hammersmith one';
+    letter-spacing:0.3em;
+    font-size:1.6rem;
+
+}
+.dumb{
+    font-family:'hammersmith one';
+    letter-spacing:0em;
+}
+@media(max-width:418px){
+    .sideBar{
+        width:290px;
+    }
+    .sideBar h1{
+        font-size:1.1rem;
+    }
+   h1{
+        font-size:0.5rem;
+    }
+}
+.hhh{
+    display:flex;
+    width:370px;
+    color:white;
+    align-items: center;
+    justify-content:space-around ;
+}
+.CateImg{
+    width:100px;
+    height:100px;
+}
+.CateImg img{
+    width:100px;
+    height:100px;
+    object-fit: cover;
+}
+.categorybox{
+    background:lightgray;
+    padding:0.8em;
+}
+@media(max-width:522px){
+    nav ul{
+        position:absolute;
+        top:50px;
+        background:#EBE8E8;
+        width: 100%;
+        justify-content: center;
+    }
+}

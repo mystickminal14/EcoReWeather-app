@@ -1,0 +1,220 @@
+
+.left{
+    width:800px;
+    background: #F6F1F1;
+    padding:1em;
+}.sale{
+    width:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em 0 1em 0;    background: linear-gradient(to bottom right, #FF5757, #f26666);
+}
+.sale h2{
+font-family:"Clicker Script";
+color:white;
+font-weight: bold;
+font-size:4.8rem;
+}
+.sale h1{
+    font-family:"hammersmith one";
+    font-size:5.5rem;
+    margin-top:-45px;
+   
+
+
+}
+.carosel{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition:transform 0.3s;
+
+}
+.sale h6{
+    font-family:'poppins';
+    font-weight: 600;
+    margin-top:-26px;
+}
+.bCards{
+    width:150px;
+}
+.imgC{
+    width:150px;
+    height:200px; 
+
+}
+.imgC img{
+    width:150px;
+    height:200px;   
+    object-fit:cover;
+}
+.saleB{
+    width:120px;
+    height:35px;
+    background:black;
+    color:white;
+}
+.bCards{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:1em;
+    transition: transform 0.5s ease-in-out;
+}
+.left{
+    display:flex;
+    gap:1.5em;
+
+}
+.riight{
+    background: #F6F1F1;
+}
+.imgWatch{
+    width:200px;
+    margin-top:-10px;
+height:200px;
+}
+.imgWatch img{
+    width:200px;
+    height:200px;
+    object-fit: contain;
+}
+.bestSel{
+    background: rgb(219, 208, 208);
+    display:flex;
+
+    padding:1em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bestSel h1{
+    width:100%;
+    background:black;
+    color:white;
+    text-align: center;
+    font-family:'Space Grotesk';
+    font-size: 1.5rem;
+}
+.riight{
+    padding:1em;
+   display:flex;
+   gap:1em;
+}
+.two{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+}
+.two2{
+    background: linear-gradient(to bottom right, #FF5757, #f26666);
+width:200px;
+display:flex;
+flex-direction: column;
+align-items: center;
+
+}
+.two2 h1{
+    font-size:2rem;
+    color: transparent;
+   
+    letter-spacing: 4px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+@media(max-width:1249px){
+    .banner{
+        gap:0.5em;
+    }
+    .left{
+        width:650px;
+    }
+    .carousel-container{
+        width:400px;
+        background:black;
+        display:flex;
+        gap:4em;
+    }
+}
+@media(max-width:1107px){
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        width:750px;
+    }
+}
+@media(max-width:752px){
+    .banner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .left{
+        width:500px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sale{
+        width:500px;
+    }
+}
+@media(max-width:515px){
+ .caroP{
+ 
+    width:320px;
+ }
+ .sale{
+    width:340px;
+ }
+ .left{
+    width:350px;
+ }
+}
+@media(max-width:455px){
+    .riight{
+        width:350px;
+    }
+    .sale{
+        width:300px;
+    }
+    .bestSel{
+        width:180px;
+    }
+    .two2{
+        width:130px;
+ 
+    }
+    .two2 h1{
+        
+        font-size:1.1rem;
+        padding:0.5em;
+    }
+}
+@media(max-width:358px){
+    .riight{
+        width:295px;
+    }
+    .caroP{
+        width:150px;
+        background:black;
+    }
+    .bestSel{
+        width:180px;
+    }
+    .two2{
+        width:70px;
+ 
+    }
+    .two2 h1{
+        
+        font-size:0.7rem;
+       
+    }
+    .left{
+width:300px;
+    }
+  
+}

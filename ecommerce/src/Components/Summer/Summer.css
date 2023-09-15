@@ -1,0 +1,214 @@
+.summerSa{
+    margin-top:40px;
+    font-size:1.5rem;
+    text-align: center;
+    font-family:'poppins';
+    letter-spacing: 3px;
+    position: relative;
+
+   
+}
+
+.mini{
+    width:230px;
+    position: relative;
+    background: rgb(239, 228, 228);
+    position: relative;
+    transition: 2s ease-in;
+  
+    box-shadow:0px 0px 5px;
+}
+
+.minIm{
+    width:230px;
+    height:180px;
+
+}
+.minIm img{
+    width:230px;
+    height:180px;
+    object-fit: cover;
+}
+.mini h1{
+    font-family:'hammersmith one';
+    font-weight: bold;
+    font-size:1.4rem;
+}
+.mini  h2{
+    margin-top:-10px;
+   
+}
+.price{
+    display:flex;
+    width:225px;
+    justify-content: space-between;
+}
+.price h1{
+    font-size:1.1rem;
+}
+.price span{
+    font-size:0.7rem;
+}
+.cen{
+    display:flex;
+    flex-wrap:wrap;
+    gap:2.2em;
+    margin-top:40px;
+    justify-content: center;
+}
+.mini h5{
+    position: absolute;
+    bottom:78px;
+    color:blue;
+    left:50px;
+    font-family:'hammersmith one';
+    z-index:212;
+}
+.cart{
+    position:absolute;
+    bottom:50px;
+    background:black;
+    width:100%;
+    height:32px;
+    display:none;
+    padding:0.1em;
+    color:white;
+
+    justify-content: center;
+    align-items: center;
+    font-family:'hammersmith one';
+}
+.mini:hover .cart{
+    display:block;
+    transition: 2s ease-in ;
+}
+.ele{
+    font-family:'hammersmith one';
+    letter-spacing:2px;
+margin-left:250px;
+border-left:6px solid blue;
+margin-top:60px;
+padding-left:1em;
+}
+.el2{
+    border-left:6px solid red;
+}
+.el3{
+    border-left:6px solid yellow;
+}
+.cent{
+    margin-bottom:50px;
+}
+.addCat{
+position: absolute;
+color:white;
+top:0;
+display:flex;
+
+flex-direction: column;
+align-items: center;
+justify-content: center;
+z-index:2222;
+padding:0.3em;
+background:rgb(72, 65, 65);
+}
+.lab{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+input[type='number']{
+    width:180px;
+    outline:none;
+    color:black
+}
+.categorybox{
+    display:flex
+}
+@media (max-width:1000px){
+    .ele{
+        margin-left:0.1em;
+        text-align: left;
+    }
+}
+.addBtn{
+    background:white;
+    color:black;
+    width:80px;
+    font-family:'hammersmith one';
+    padding:0.2em;
+    margin-top:5px;
+
+}
+@media(max-width:500px){
+    .cen{
+        gap:1.3em;
+    }
+    .mini{
+        width:200px;
+        background: rgb(239, 228, 228);
+        position: relative;
+        transition: 2s ease-in;
+        box-shadow:0px 0px 5px;
+    }
+    .mini h1{
+        font-size:1rem;
+    }
+    .minIm{
+        width:200px;
+        height:150px;
+    
+    }
+    .cart{
+        bottom:34px;
+    }
+    .minIm img{
+        width:200px;
+        height:150px;
+        object-fit: cover;
+    }
+    .mini h5{
+        bottom:60px;
+    }
+    .price{
+        width:190px;
+
+    }
+    .price h1{
+        font-size:0.7rem;
+    }
+    .price span{
+        font-size:0.6rem;
+    }
+    .price h3{
+        font-size:0.6rem;
+    }
+   
+}
+@media (max-width:445px){
+
+ .mini{
+        width:160px;
+        
+     
+    }
+    .mini h1{
+        font-size:1rem;
+    }
+    .minIm{
+        width:160px;
+        height:150px;
+    
+    }
+    .cart{
+        bottom:34px;
+    }
+    .minIm img{
+        width:160px;
+        height:150px;
+        object-fit: cover;
+    }
+    .price{
+        width:150px;
+    }
+}

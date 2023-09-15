@@ -1,0 +1,187 @@
+.rightImg{
+    width:200px;
+    height:200px;
+}
+.rightImg img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+}
+ .rightFood{
+    display: flex;
+    width:450px;
+    flex-wrap: wrap;
+    gap:0.5em;
+    justify-content: center;
+    align-items: center;
+}
+.heroFoodie{
+    margin-top:40px;
+    display:flex;
+    gap:1em;
+    justify-content: center;
+}
+.sideFood{
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+}
+.searchb{
+    width:100px;
+    background:black;
+    color:white;
+    height:30px;
+}
+.search{
+    background:black;
+    color:white;
+    padding:0.3em;
+    width:120px;
+    outline:none;
+    border-radius:5px;
+}
+.sideFood h1{
+    font-family:'hammersmith one';
+    font-size:1.8rem;
+}
+.sideFood p{
+    font-family:'hammersmith one';
+}
+c{
+  
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  width:500px;
+  gap:1em;
+}
+
+.searchT input[type='text']{
+    width:400px;
+    height:3s0px;
+}
+.ip{
+    width:300px;
+}
+.searchT{
+    display:flex;
+  
+    justify-content: center;
+    flex-direction: center;
+}
+@media(max-width:936px){
+    .heroFoodie{
+        gap:0.1em;
+    }
+   
+}
+@media(max-width:871px){
+    .heroFoodie{
+        align-items: center;
+        margin-top:60px;
+        gap:0.6em;
+        flex-direction: column-reverse;
+    }
+   
+}
+@media(max-width:452px){
+    .heroFoodie{
+        align-items: center;
+        gap:0.6em;
+
+        flex-direction: column-reverse;
+    }
+    .rightFood{
+        width:320px;
+    }
+    .rightImg{
+        width:150px;
+        height:150px;
+    }
+    .rightImg img{
+        width:150px;
+        height:150px;
+        object-fit:cover;
+    }
+    .sideFood{
+        width:300px;
+    }
+   .searchT  {
+        width:280px;
+    }
+}
+@media(max-width:322px){
+    
+    .rightFood{
+        width:280px;
+    }
+    .rightImg{
+        width:120px;
+        height:120px;
+    }
+    .rightImg img{
+        width:120px;
+        height:120px;
+        object-fit:cover;
+    }
+    .sideFood{
+        width:280px;
+    }
+}
+.imgR{
+    width:290px;
+    height:250px;
+}
+.imgR img{
+    width:290px;
+    height:250px;
+    object-fit:cover;
+}
+.boxm h1{
+    font-family:"hammersmith one";
+    font-size:1.3rem;
+}
+.cengg{
+    display:flex;
+  gap:4em;
+}
+.cengg h3{
+    font-weight:500;
+}
+.boxm{
+    margin-top:20px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+   align-items: center;
+    gap:1em;
+}
+.put{
+    width:100%;
+   
+    display: flex;
+    justify-content: center;
+
+}
+.boxm p{
+    text-align:justify;
+}
+@media(max-width:518px){
+    .boxm{
+        width:400px;
+
+    }
+    .searchT  {
+        width:300px;
+        margin-left:20px;
+    }
+}
+@media(max-width:409px){
+    .boxm{
+        width:280px;
+    }
+    .searchT{
+       margin-left:5px;
+    }
+}
